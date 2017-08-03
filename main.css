@@ -4,12 +4,15 @@ html{
 }
 .calculator{
   background-color: #4e5556;
-  border-radius: 5px;
+  border-radius: 15px;
+  border:solid 4px pink;
+  padding: 20px 10px 0 10px;
 }
 .display{
   border: solid 4px pink;
   padding: 27px;
-  border-radius:5px;
+  margin:0 10px;
+  border-radius:10px;
 }
 h1{
   display: flex;
@@ -17,7 +20,7 @@ h1{
   color: #4e5556;
 }
 body{
-  width: 570px;
+  width: 600px;
   border: 100px;
 }
 .operators{
@@ -25,6 +28,10 @@ body{
   flex-direction: column;
   float:right;
   justify-content: center;
+}
+
+button:focus {
+  outline:0;
 }
 
 .buttonnumb{
@@ -35,6 +42,8 @@ body{
   margin: 10px;
   border-radius: 10px;
   font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
 }
 .buttonadd{
   background-color: pink;
@@ -44,6 +53,7 @@ body{
   margin: 10px;
   border-radius: 10px;
 font-size: 30px;
+font-weight: 500;
 }
 .buttonsub{
   background-color: pink;
@@ -53,6 +63,7 @@ font-size: 30px;
   margin: 10px;
   border-radius: 10px;
 font-size: 30px;
+font-weight: 500;
 }
 .buttonmulti{
   background-color: pink;
@@ -62,6 +73,7 @@ font-size: 30px;
   margin: 10px;
   border-radius: 10px;
 font-size: 30px;
+font-weight: 500;
 }
 .buttondiv{
   background-color: pink;
@@ -71,6 +83,7 @@ font-size: 30px;
   margin: 10px;
   border-radius: 10px;
 font-size: 30px;
+font-weight: 500;
 }
 .buttonmod{
   background-color: pink;
@@ -80,6 +93,7 @@ font-size: 30px;
   margin: 10px;
   border-radius: 10px;
 font-size: 30px;
+font-weight: 500;
 }
 .buttonequal{
 background-color: pink;
@@ -89,6 +103,7 @@ height: 75px;
 margin: 10px;
 border-radius: 10px;
 font-size: 50px;
+font-weight: 500;
 }
 .buttonnumb:hover{
   background-color: gray;
