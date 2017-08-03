@@ -11,8 +11,11 @@ html{
 .display{
   border: solid 4px pink;
   padding: 27px;
-  margin:0 10px;
+  margin:0 10px 10px 10px;
   border-radius:10px;
+  font-size: 30px;
+  color: pink;
+  height: 40px;
 }
 h1{
   display: flex;
@@ -155,7 +158,7 @@ button:focus {
   font-weight: 500;
   box-shadow: 10px;
 }
-#buttonnumbC{
+#buttonC{
   background-color: pink;
   color: grey;
   width: 125px;
