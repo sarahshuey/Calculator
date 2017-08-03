@@ -1,0 +1,120 @@
+html{
+  display: flex;
+  justify-content: center;
+}
+.calculator{
+  background-color: #4e5556;
+  border-radius: 5px;
+}
+.display{
+  border: solid 4px pink;
+  padding: 27px;
+  border-radius:5px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  color: #4e5556;
+}
+body{
+  width: 570px;
+  border: 100px;
+}
+.operators{
+  display: flex;
+  flex-direction: column;
+  float:right;
+  justify-content: center;
+}
+
+.buttonnumb{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.buttonadd{
+  background-color: pink;
+  color: grey;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+font-size: 30px;
+}
+.buttonsub{
+  background-color: pink;
+  color: grey;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+font-size: 30px;
+}
+.buttonmulti{
+  background-color: pink;
+  color: grey;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+font-size: 30px;
+}
+.buttondiv{
+  background-color: pink;
+  color: grey;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+font-size: 30px;
+}
+.buttonmod{
+  background-color: pink;
+  color: grey;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+font-size: 30px;
+}
+.buttonequal{
+background-color: pink;
+color: grey;
+width:  425px;
+height: 75px;
+margin: 10px;
+border-radius: 10px;
+font-size: 50px;
+}
+.buttonnumb:hover{
+  background-color: gray;
+  color: pink;
+}
+.buttonadd:hover{
+  background-color: gray;
+  color: pink;
+}
+.buttonsub:hover{
+  color: pink;
+  background-color: gray;
+}
+.buttonmulti:hover{
+  color: pink;
+  background-color: gray;
+}
+.buttondiv:hover{
+  background-color: gray;
+  color: pink;
+}
+.buttonmod:hover{
+  background-color: gray;
+  color: pink;
+}
+.buttonequal:hover{
+  background-color: gray;
+  color: pink;
+}
