@@ -34,7 +34,7 @@ button:focus {
   outline:0;
 }
 
-.buttonnumb{
+#buttonnumb9{
   background-color: pink;
   color: grey;
   width: 125px;
@@ -45,7 +45,129 @@ button:focus {
   font-weight: 500;
   box-shadow: 10px;
 }
-.buttonadd{
+#buttonnumb8{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+}
+#buttonnumb7{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+}
+#buttonnumb6{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+}
+#buttonnumb5{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+}
+#buttonnumb4{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+}
+#buttonnumb1{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+}
+#buttonnumb2{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+}
+#buttonnumb3{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+}
+#buttonnumb0{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+}
+#buttonnumb{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+}
+#buttonnumbC{
+  background-color: pink;
+  color: grey;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+}
+
+#buttonadd{
   background-color: pink;
   color: grey;
   width: 100px;
@@ -55,7 +177,7 @@ button:focus {
 font-size: 30px;
 font-weight: 500;
 }
-.buttonsub{
+#buttonsub{
   background-color: pink;
   color: grey;
   width: 100px;
@@ -65,7 +187,7 @@ font-weight: 500;
 font-size: 30px;
 font-weight: 500;
 }
-.buttonmulti{
+#buttonmulti{
   background-color: pink;
   color: grey;
   width: 100px;
@@ -75,7 +197,7 @@ font-weight: 500;
 font-size: 30px;
 font-weight: 500;
 }
-.buttondiv{
+#buttondiv{
   background-color: pink;
   color: grey;
   width: 100px;
@@ -85,7 +207,7 @@ font-weight: 500;
 font-size: 30px;
 font-weight: 500;
 }
-.buttonmod{
+#buttonmod{
   background-color: pink;
   color: grey;
   width: 100px;
@@ -95,7 +217,7 @@ font-weight: 500;
 font-size: 30px;
 font-weight: 500;
 }
-.buttonequal{
+#buttonequal{
 background-color: pink;
 color: grey;
 width:  425px;
@@ -105,31 +227,75 @@ border-radius: 10px;
 font-size: 50px;
 font-weight: 500;
 }
-.buttonnumb:hover{
+#buttonnumb9:hover{
   background-color: gray;
   color: pink;
 }
-.buttonadd:hover{
+#buttonnumb8:hover{
   background-color: gray;
   color: pink;
 }
-.buttonsub:hover{
-  color: pink;
-  background-color: gray;
-}
-.buttonmulti:hover{
-  color: pink;
-  background-color: gray;
-}
-.buttondiv:hover{
+#buttonnumb7:hover{
   background-color: gray;
   color: pink;
 }
-.buttonmod:hover{
+#buttonnumb6:hover{
   background-color: gray;
   color: pink;
 }
-.buttonequal:hover{
+#buttonnumb5:hover{
+  background-color: gray;
+  color: pink;
+}
+#buttonnumb4:hover{
+  background-color: gray;
+  color: pink;
+}
+#buttonnumb3:hover{
+  background-color: gray;
+  color: pink;
+}
+#buttonnumb2:hover{
+  background-color: gray;
+  color: pink;
+}
+#buttonnumb:hover{
+  background-color: gray;
+  color: pink;
+}
+#buttonnumb1:hover{
+  background-color: gray;
+  color: pink;
+}
+#buttonnumb0:hover{
+  background-color: gray;
+  color: pink;
+}
+#buttonnumbC:hover{
+  background-color: gray;
+  color: pink;
+}
+#buttonadd:hover{
+  background-color: gray;
+  color: pink;
+}
+#buttonsub:hover{
+  color: pink;
+  background-color: gray;
+}
+#buttonmulti:hover{
+  color: pink;
+  background-color: gray;
+}
+#buttondiv:hover{
+  background-color: gray;
+  color: pink;
+}
+#buttonmod:hover{
+  background-color: gray;
+  color: pink;
+}
+#buttonequal:hover{
   background-color: gray;
   color: pink;
 }
