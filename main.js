@@ -8,14 +8,16 @@ let opts = document.querySelectorAll('.opt');
 opts.forEach(function(o) {
   o.addEventListener('click',
     function(event) {
-      // console.log(event.path[0].textContent)
-      if (event.path[0].textContent !== '='){
+let keypressed = event.path[0].textContent
+      if (keypressed === '+'|| keypressed === '-' || keypressed === '*' || keypressed === '/'){
         document.querySelector('.display').innerHTML += o.value
+      }
+      else if (keypressed === 'C') {
+        document.querySelector('.display').innerHTML = ''
       }
       else {
         let result = eval(document.querySelector('.display').innerHTML);
         document.querySelector('.display').innerHTML=result
-        // console.log(result);
       }
     })
 })
