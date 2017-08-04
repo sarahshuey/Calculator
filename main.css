@@ -17,6 +17,7 @@ html{
   color: pink;
   height: 40px;
 }
+
 h1{
   display: flex;
   justify-content: center;
