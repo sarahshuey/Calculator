@@ -3,7 +3,7 @@ html{
   justify-content: center;
 }
 .calculator{
-  background-color: #4e5556;
+  background-image: url(image/calc-background.jpg);
   border-radius: 15px;
   border:solid 4px pink;
   padding: 20px 10px 0 10px;
@@ -14,8 +14,11 @@ html{
   margin:0 10px 10px 10px;
   border-radius:10px;
   font-size: 30px;
-  color: pink;
+  color:  #d15786;
   height: 40px;
+  background-color: rgba(255,  255,  255, 0.8);
+  font-weight: bolder;
+  overflow: hidden;
 }
 
 h1{
@@ -24,16 +27,11 @@ h1{
   color: #4e5556;
 }
 body{
-  width: 600px;
+  width: 520px;
   border: 100px;
-}
-.operators{
-  display: flex;
-  flex-direction: column;
-  float:right;
-  justify-content: center;
-}
+  min-width: 520px;
 
+}
 button:focus {
   outline:0;
 }
@@ -41,10 +39,10 @@ button:focus {
 #buttonnumb9{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
@@ -52,10 +50,10 @@ button:focus {
 #buttonnumb8{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
@@ -63,10 +61,10 @@ button:focus {
 #buttonnumb7{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
@@ -74,10 +72,10 @@ button:focus {
 #buttonnumb6{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
@@ -85,10 +83,10 @@ button:focus {
 #buttonnumb5{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
@@ -96,10 +94,10 @@ button:focus {
 #buttonnumb4{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
@@ -107,10 +105,10 @@ button:focus {
 #buttonnumb1{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
@@ -118,10 +116,10 @@ button:focus {
 #buttonnumb2{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
@@ -129,10 +127,10 @@ button:focus {
 #buttonnumb3{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
@@ -140,10 +138,10 @@ button:focus {
 #buttonnumb0{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
@@ -151,21 +149,21 @@ button:focus {
 #buttonnumb{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
-}
+  }
 #buttonC{
   background-color: pink;
   color: grey;
-  width: 125px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 10px;
@@ -174,63 +172,80 @@ button:focus {
 #buttonadd{
   background-color: pink;
   color: grey;
-  width: 100px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
-font-size: 30px;
-font-weight: 500;
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
 }
 #buttonsub{
   background-color: pink;
   color: grey;
-  width: 100px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
-font-size: 30px;
-font-weight: 500;
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
 }
 #buttonmulti{
   background-color: pink;
   color: grey;
-  width: 100px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
-font-size: 30px;
-font-weight: 500;
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
 }
 #buttondiv{
   background-color: pink;
   color: grey;
-  width: 100px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
-font-size: 30px;
-font-weight: 500;
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
 }
 #buttonmod{
   background-color: pink;
   color: grey;
-  width: 100px;
+  width: 75px;
   height: 75px;
   margin: 10px;
-  border-radius: 10px;
-font-size: 30px;
-font-weight: 500;
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
 }
 #buttonequal{
-background-color: pink;
-color: grey;
-width:  425px;
-height: 75px;
-margin: 10px;
-border-radius: 10px;
-font-size: 50px;
-font-weight: 500;
-}
+  background-color: pink;
+  color: grey;
+  width: 175px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 10px;
+  }
+  #buttonpow{
+    background-color: pink;
+    color: grey;
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    box-shadow: 10px;
+    }
 #buttonnumb9:hover{
   background-color: gray;
   color: pink;
